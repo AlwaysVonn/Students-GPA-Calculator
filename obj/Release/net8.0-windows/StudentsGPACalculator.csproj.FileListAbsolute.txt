@@ -1,0 +1,15 @@
+C:\Users\Acer\Downloads\Students-GPA-Calculator\bin\Release\net8.0-windows\StudentsGPACalculator.exe
+C:\Users\Acer\Downloads\Students-GPA-Calculator\bin\Release\net8.0-windows\StudentsGPACalculator.deps.json
+C:\Users\Acer\Downloads\Students-GPA-Calculator\bin\Release\net8.0-windows\StudentsGPACalculator.runtimeconfig.json
+C:\Users\Acer\Downloads\Students-GPA-Calculator\bin\Release\net8.0-windows\StudentsGPACalculator.dll
+C:\Users\Acer\Downloads\Students-GPA-Calculator\bin\Release\net8.0-windows\StudentsGPACalculator.pdb
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.AssemblyInfoInputs.cache
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.AssemblyInfo.cs
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.sourcelink.json
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.dll
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\refint\StudentsGPACalculator.dll
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.pdb
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\StudentsGPACalculator.genruntimeconfig.cache
+C:\Users\Acer\Downloads\Students-GPA-Calculator\obj\Release\net8.0-windows\ref\StudentsGPACalculator.dll

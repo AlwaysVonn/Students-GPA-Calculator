@@ -47,23 +47,26 @@ namespace StudentsGPACalculator
                 Location = new Point(220, 15)
             };
 
-            lblName = new Label { Text = "Name  :", Location = new Point(20, 60), AutoSize = true };
-            txtName = new TextBox { Location = new Point(140, 57), Width = 250 };
+            Font inputFont = new Font("Segoe UI", 10);
 
-            lblNIM = new Label { Text = "NIM   :", Location = new Point(20, 90), AutoSize = true };
-            txtNIM = new TextBox { Location = new Point(140, 87), Width = 250 };
+            lblName = new Label { Text = "Name :", Location = new Point(20, 60), AutoSize = true, Font = inputFont };
+            txtName = new TextBox { Location = new Point(20, 82), Width = 250, Height = 32, Font = inputFont, BorderStyle = BorderStyle.Fixed3D, BackColor = Color.White };
 
-            lblCourseName = new Label { Text = "Course Name :", Location = new Point(20, 130), AutoSize = true };
-            txtCourseName = new TextBox { Location = new Point(140, 127), Width = 200 };
+            lblNIM = new Label { Text = "NIM :", Location = new Point(300, 60), AutoSize = true, Font = inputFont };
+            txtNIM = new TextBox { Location = new Point(300, 82), Width = 200, Height = 32, Font = inputFont, BorderStyle = BorderStyle.Fixed3D, BackColor = Color.White };
 
-            lblCredits = new Label { Text = "Credits :", Location = new Point(370, 130), AutoSize = true };
-            txtCredits = new TextBox { Location = new Point(430, 127), Width = 60 };
+            lblCourseName = new Label { Text = "Course Name :", Location = new Point(20, 130), AutoSize = true, Font = inputFont };
+            txtCourseName = new TextBox { Location = new Point(20, 152), Width = 250, Height = 32, Font = inputFont, BorderStyle = BorderStyle.Fixed3D, BackColor = Color.White };
 
-            lblGrade = new Label { Text = "Grade :", Location = new Point(510, 130), AutoSize = true };
-            cmbGrade = new ComboBox { Location = new Point(560, 127), Width = 80, DropDownStyle = ComboBoxStyle.DropDownList };
+            lblCredits = new Label { Text = "Credits :", Location = new Point(300, 130), AutoSize = true, Font = inputFont };
+            txtCredits = new TextBox { Location = new Point(300, 152), Width = 80, Height = 32, Font = inputFont, BorderStyle = BorderStyle.Fixed3D, BackColor = Color.White };
+
+            lblGrade = new Label { Text = "Grade :", Location = new Point(410, 130), AutoSize = true, Font = inputFont };
+            cmbGrade = new ComboBox { Location = new Point(410, 152), Width = 110, Height = 32, Font = inputFont, DropDownStyle = ComboBoxStyle.DropDownList, FlatStyle = FlatStyle.Flat };
             cmbGrade.Items.AddRange(new object[] { "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "F" });
 
-            btnAdd = new Button { Text = "Add Course", Location = new Point(20, 165), Width = 110 };
+            btnAdd = new Button { Text = "Add Course", Location = new Point(550, 152), Width = 125, Height = 32, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(96, 125, 139), ForeColor = Color.White, Font = new Font("Segoe UI", 9, FontStyle.Bold), Cursor = Cursors.Hand };
+            btnAdd.FlatAppearance.BorderSize = 0;
             btnAdd.Click += BtnAdd_Click;
 
             lvCourses = new ListView
@@ -80,10 +83,12 @@ namespace StudentsGPACalculator
             lvCourses.Columns.Add("Grade", 100);
             lvCourses.Columns.Add("Grade Point", 120);
 
-            btnCalculate = new Button { Text = "Calculate GPA", Location = new Point(20, 395), Width = 130 };
+            btnCalculate = new Button { Text = "Calculate GPA", Location = new Point(20, 395), Width = 150, Height = 36, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(46, 125, 50), ForeColor = Color.White, Font = new Font("Segoe UI", 10, FontStyle.Bold), Cursor = Cursors.Hand };
+            btnCalculate.FlatAppearance.BorderSize = 0;
             btnCalculate.Click += BtnCalculate_Click;
 
-            btnReset = new Button { Text = "Reset", Location = new Point(170, 395), Width = 90 };
+            btnReset = new Button { Text = "Reset", Location = new Point(190, 395), Width = 110, Height = 36, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(198, 40, 40), ForeColor = Color.White, Font = new Font("Segoe UI", 10, FontStyle.Bold), Cursor = Cursors.Hand };
+            btnReset.FlatAppearance.BorderSize = 0;
             btnReset.Click += BtnReset_Click;
 
             lblTotalCredits = new Label { Text = "Total Credits : 0", Location = new Point(20, 435), AutoSize = true, Font = new Font("Segoe UI", 10, FontStyle.Bold) };
